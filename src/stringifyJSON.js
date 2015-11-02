@@ -6,7 +6,6 @@
 
 var  stringifyJSON = function(obj) {
   // your code goes here
-  var stringed = "{";
   var size = function(obj){
   	var out = 0, key;
   	for(key in obj){
