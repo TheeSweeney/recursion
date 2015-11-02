@@ -25,13 +25,13 @@ var  stringifyJSON = function(obj) {
   			if(i == (obj.length-1)){
   				out = out + stringifyJSON(obj[i]);
   			}else{
-  			out = out + stringifyJSON(obj[i]) + ",";
+  			  out = out + stringifyJSON(obj[i]) + ",";
   			}
   		}
   		return '['+out+']';
   		}
   	else{
-  	return '[]';
+  	  return '[]';
   	}
   }
   else{
